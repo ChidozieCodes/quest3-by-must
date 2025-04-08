@@ -1,0 +1,50 @@
+#chairman{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#chairman_inner{
+    width: 90%;
+    margin-left: auto;
+}
+#chairman_content_division{
+    width: 100%;
+    display: flex;
+    /* background-color: chartreuse; */
+}
+.chairmanTitle{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.charmanbox1{
+    width: 53%;
+    margin: 1%;
+    /* background-color: darkkhaki; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.chairmanbox2{
+    width: 43%;
+    margin: 1%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+}
+.chairmanbox2 img{
+    width: 100%;
+    
+}
+#signature_wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#signature_wrapper p{
+    font-weight: bold;
+}
+.rightArrowContainer{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+#donation_info{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #F8F4F3;
+}
+#donation_inner{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donation_title{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+#heart_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+#heart_wrapper li{
+    width: 20%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
+#heart_con img{
+    margin-right: 2%;
+}

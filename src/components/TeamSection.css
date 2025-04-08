@@ -1,0 +1,9 @@
+#team{
+    width: 100%;
+}
+#team_inner{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}

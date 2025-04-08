@@ -1,0 +1,52 @@
+#app_promo_section{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#app_promo_inner{
+    width: 90%;
+    margin: auto;
+    display: flex;
+  
+}
+#app_promo_inner div{
+    width: 48%;
+    margin: 1%;
+    padding: 2%;
+    /* background-color: blueviolet; */
+}
+.promobox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promobox2 img{
+    width: 100%;
+}
+.appicon{
+    width: 10%;
+}
+.app_promo_title{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.appColorTxt{
+    color: #8C5947;
+}
+.appDownload{
+    width: 30%;
+    display: flex;
+    padding: 4%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 50px;
+}
+.appDownload img{
+    margin-left: 3%;
+}
+.app_promo_date{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}

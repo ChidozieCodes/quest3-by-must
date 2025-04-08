@@ -1,0 +1,46 @@
+#header{
+    width: 100%;
+    /* background-color: #b8b8b8; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: relative;
+    z-index: 10;
+}
+#nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+#navcon{
+    width: 40%;
+    margin-left: auto;
+    /* background-color: bisque; */
+    display: flex;
+}
+#navcon li{
+    width: 23%;
+    margin: 1%;
+    background-color: white;
+
+}
+#navcon li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    color: black;
+}
+.kor{
+    border-radius: 20px;
+    background-color: black;
+    color: white !important;
+}
