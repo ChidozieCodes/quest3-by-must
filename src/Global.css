@@ -1,0 +1,204 @@
+/* Media Queries Section */
+@media screen and (max-width: 1280px) {
+    #nav{
+        width: 90%;
+    }
+    .hero-slider{
+        width: 90%;
+      }
+      #hero{
+        padding-top: 2%;
+      }
+}
+
+@media screen and (max-width: 1024px) {
+    #navcon{
+        width: 55%;
+    }
+    .scroll-btn.right{
+        left: 7%;
+    }
+    .appDownload{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    #navcon{
+        width: 65%;
+    }
+    .hero-slider{
+        height: 50vh;
+    }
+    #team_inner img{
+        /* width: 40%;
+        margin: 4%; */
+    }
+    .about_title{
+        margin-bottom: 2%;
+    }
+}
+@media screen and (max-width: 853px) {
+    #team_inner img {
+        width: 30%;
+    }
+    .scroll-btn.right{
+        left: 9%;
+    }
+    .partner-card{
+        padding: 6%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #navcon li a{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   
+}
+
+@media screen and (max-width: 540px) {
+    #navcon{
+        display: none;
+    }
+    #hamburger{
+        display: flex;
+        margin-left: auto;
+        width: 15%;
+    }
+    #hamburger img{
+        width: 60%;
+    }
+    body{
+        font-size: 14px;
+    }
+    .overlay h1{
+        font-size: 2rem;
+    }
+    .hero-slider{
+        height: 60vh;
+    }
+    .about_title{
+        font-size: 25px;
+    }
+    .abouttxt2{
+        font-size: 25px;
+        margin-top: 2%;
+    }
+    .aboutTxt{
+        font-size: 25px;
+    }
+    .chairmanTitle{
+        font-size: 30px;
+    }
+    #chairman_content_division{
+        flex-direction: column;
+    }
+    .charmanbox1{
+        width: 100%;
+        margin: 0;
+    }
+    #chairman_inner{
+        margin: auto;
+    }
+    .chairmanbox2{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .chairmanbox2 img{
+        width: 80%;
+    }
+    #team_inner{
+        flex-direction: column;
+    }
+    #team_inner img{
+        width: 50%;
+        margin: auto;
+    }
+    .activities-section h1{
+        font-size: 25px;
+    }
+    .activity.row{
+        flex-direction: column;
+    }
+    .activity.row-reverse{
+        flex-direction: column;
+    }
+    .donation_title{
+        font-size: 25px;
+    }
+    #heart_wrapper li{
+        width: 35%;
+    }
+    #app_promo_inner{
+        width: 90%;
+        flex-direction: column;
+    }
+    #app_promo_inner div{
+        width: 100%;
+        margin: 0;
+    }
+    .scroll-btn.right{
+        left: 13%;
+    }
+    #footer_inner{
+        flex-direction: column;
+    }
+    #footerBox1{
+        width: 100%;
+        margin: 0;
+    }
+    #footerBox2{
+        width: 100%;
+        margin: 0;
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 430px) {
+    .scroll-btn.right{
+        left: 15%;
+    }
+
+}
+@media screen and (max-width: 414px) {
+    .scroll-btn.right{
+        left: 18%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+      
+}
+
+@media screen and (max-width: 393px) {
+    .scroll-btn.right{
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+   
+}
+@media screen and (max-width: 375px) {
+  
+}
+
+
+@media screen and (max-width: 360px) {
+    
+}
+
+@media screen and (max-width: 320px) {
+   
+}
+
+@media screen and (max-width: 280px) {
+  
+}

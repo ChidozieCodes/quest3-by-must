@@ -1,10 +1,22 @@
 import React from 'react'
 import './ChairmanMessage.css';
-import chairman from '../assets/chairman.png' // Assuming the image is in the assets folder
+import chairman from '../assets/chairman.png' 
 import signature from '../assets/signature.png' 
-import rightarrow from '../assets/rightarrow.png' 
+import rightarrow from '../assets/rightarrow.png';
+import AOS from 'aos'; 
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function ChairmanMessage() {
+
+useEffect(() => {
+    AOS.init({
+        // duration: 1000, // animation duration (in ms)
+        once: false,  // whether animation should happen only once
+    });
+    AOS.refresh();
+    }, []);
+
   return (
     <section id='chairman'>
         <article id='chairman_inner'>
@@ -24,7 +36,11 @@ function ChairmanMessage() {
                     <p className='rightArrowContainer'>인터뷰 더 보기 <img src={rightarrow} alt="" /></p>
                 </article>
                 <article className='chairmanbox2'>
-                    <img src={chairman} alt="Chairman" />
+                    <img 
+                        src={chairman} 
+                        alt="Chairman" 
+                        data-aos="fade-left" 
+                    />
                 </article>
             </section>
         </article>

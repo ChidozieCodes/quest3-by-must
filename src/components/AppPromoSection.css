@@ -4,7 +4,7 @@
     padding-bottom: 5%;
 }
 #app_promo_inner{
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
   
@@ -16,12 +16,12 @@
     /* background-color: blueviolet; */
 }
 .promobox2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 .promobox2 img{
-    width: 100%;
+    width: 70%;
 }
 .appicon{
     width: 10%;
@@ -34,7 +34,7 @@
     color: #8C5947;
 }
 .appDownload{
-    width: 30%;
+    width: 40%;
     display: flex;
     padding: 4%;
     justify-content: center;
@@ -50,3 +50,5 @@
     margin-top: 7%;
     margin-bottom: 7%;
 }
+
+

@@ -9,6 +9,8 @@ import ActivitySection from './components/ActivitySection';
 import DonationInfo from './components/DonationInfo';
 import AppPromoSection from './components/AppPromoSection';
 import PartnersSection from './components/PartnersSection';
+import Footer from './components/Footer';
+import './Global.css';
 
 function App() {
 
@@ -24,7 +26,8 @@ function App() {
       <DonationInfo />
       <AppPromoSection />
       <PartnersSection />
-
+      <Footer />
+     
     </>
   )
 }

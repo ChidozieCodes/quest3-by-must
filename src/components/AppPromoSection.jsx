@@ -3,8 +3,18 @@ import './AppPromoSection.css';
 import appPromoImage from '../assets/apppromo.png';
 import appicon from '../assets/appicon.png';
 import download from '../assets/download.png';
+import AOS from 'aos'; 
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 function AppPromoSection() {
+useEffect(() => {
+    AOS.init({
+        // duration: 1000, // animation duration (in ms)
+        once: false,  // whether animation should happen only once
+    });
+    AOS.refresh();
+    }, []);
   return (
     <section id='app_promo_section'>
       <article id='app_promo_inner'>
@@ -30,7 +40,11 @@ function AppPromoSection() {
             </a>
         </div>
         <div className='promobox2'>
-            <img src={appPromoImage} alt="appPromoImage" />
+            <img 
+              data-aos="fade-up" 
+              src={appPromoImage} 
+              alt="appPromoImage" 
+            />
         </div>
       </article>
     </section>

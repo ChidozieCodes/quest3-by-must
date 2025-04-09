@@ -1,7 +1,8 @@
 #chairman{
     width: 100%;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
 }
 #chairman_inner{
     width: 90%;
@@ -48,3 +49,4 @@
     display: flex;
     align-items: center;
 }
+
